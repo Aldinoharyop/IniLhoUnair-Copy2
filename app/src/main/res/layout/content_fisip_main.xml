@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aldino.inilhounair.fakultas.FISIP.FISIP_main"
+    tools:showIn="@layout/activity_fisip_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textpembuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Fakultas Ekonomi dan Bisnis merupakan Fakultas ke - 3 yang ada di Universitas Airangga" />
+
+        <ImageButton
+            android:id="@+id/fisipsejarah"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/feb_bendera"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:id="@+id/fisipprodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aldino.inilhounair.fakultas.FEB.FEB_prodi"
+    tools:showIn="@layout/activity_feb_prodi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textpembuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_marginTop="20dp"
+            android:text="Fakultas Ekonomi dan Bisnis merupakan Fakultas ke - 3 yang ada di Universitas Airangga" />
+
+        <Button
+            android:id="@+id/manajemen"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Manajemen"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/ep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ekonomi Pembangunan"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/ekis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ekonomi Islam"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/akutansi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Akutansi"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

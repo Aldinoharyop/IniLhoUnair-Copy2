@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aldino.inilhounair.Fakultas"
+    tools:showIn="@layout/activity_fakultas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/fst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fst_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FST"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/fkm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/textViewFKM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FKM"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fkh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fkh_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FKH"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/feb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/feb_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFEB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEB"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FF"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fh_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FH"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fib_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFIB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIB"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fisip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fisip_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFISIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FISIP"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fkbutton"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FK"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fkg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fkgbutton"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFKG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FKG"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fkp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fkpbutton"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFKP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FKP"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fpsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fpsi_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFPsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FPsi"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewFV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FV"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/fpk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:src="@drawable/fpkbutton"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textViewFPK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FPK"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aldino.inilhounair">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Fasilitas" />
+        <activity
+            android:name=".Sejarah"
+            android:label="@string/title_activity_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FEB.FEB_main"
+            android:label="@string/title_activity_feb_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FEB.FEB_sejarah"
+            android:label="@string/title_activity_feb_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FEB.FEB_prodi"
+            android:label="@string/title_activity_feb_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FF.FF_main"
+            android:label="@string/title_activity_ff_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FF.FF_sejarah"
+            android:label="@string/title_activity_ff_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FF.FF_prodi"
+            android:label="@string/title_activity_ff_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FH.FH_main"
+            android:label="@string/title_activity_fh_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FH.FH_sejarah"
+            android:label="@string/title_activity_fh_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FH.FH_prodi"
+            android:label="@string/title_activity_fh_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FIB.FIB_main"
+            android:label="@string/title_activity_fib_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FIB.FIB_sejarah"
+            android:label="@string/title_activity_fib_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FIB.FIB_prodi"
+            android:label="@string/title_activity_fib_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FISIP.FISIP_main"
+            android:label="@string/title_activity_fisip_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FISIP.FISIP_sejarah"
+            android:label="@string/title_activity_fisip_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FISIP.FISIP_prodi"
+            android:label="@string/title_activity_fisip_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FK.FK_main"
+            android:label="@string/title_activity_fk_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FK.FK_sejarah"
+            android:label="@string/title_activity_fk_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FK.FK_prodi"
+            android:label="@string/title_activity_fk_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKG.FKG_main"
+            android:label="@string/title_activity_fkg_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKG.FKG_sejarah"
+            android:label="@string/title_activity_fkg_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKG.FKG_prodi"
+            android:label="@string/title_activity_fkg_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKH.FKH_main"
+            android:label="@string/title_activity_fkh_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKH.FKH_sejarah"
+            android:label="@string/title_activity_fkh_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKH.FKH_prodi"
+            android:label="@string/title_activity_fkh_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKM.FKM_main"
+            android:label="@string/title_activity_fkm_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKM.FKM_sejarah"
+            android:label="@string/title_activity_fkm_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKM.FKM_prodi"
+            android:label="@string/title_activity_fkm_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKP.FKP_sejarah"
+            android:label="@string/title_activity_fkp_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKP.FKP_prodi"
+            android:label="@string/title_activity_fkp_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPK.FPK_main"
+            android:label="@string/title_activity_fpk_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPK.FPK_sejarah"
+            android:label="@string/title_activity_fpk_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPK.FPK_prodi"
+            android:label="@string/title_activity_fpk_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPsi.FPsi_main"
+            android:label="@string/title_activity_fpsi_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPsi.FPsi_sejarah"
+            android:label="@string/title_activity_fpsi_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FPsi.FPsi_prodi"
+            android:label="@string/title_activity_fpsi_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FST.FST_main"
+            android:label="@string/title_activity_fst_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FST.FST_sejarah"
+            android:label="@string/title_activity_fst_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FST.FST_prodi"
+            android:label="@string/title_activity_fst_prodi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FV.FV_main"
+            android:label="@string/title_activity_fv_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FV.FV_sejarah"
+            android:label="@string/title_activity_fv_sejarah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FV.FV_prodi"
+            android:label="@string/title_activity_fv_jurusan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fakultas"
+            android:label="@string/title_activity_fakultas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fakultas.FKP.FKP_main"
+            android:label="@string/title_activity_fkp_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Popup"
+            android:theme="@style/AppTheme.buatpopup" />
+        <activity android:name=".ListProdi" />
+        <activity android:name=".PopUpInfoProdi"></activity>
+    </application>
+
+</manifest>
