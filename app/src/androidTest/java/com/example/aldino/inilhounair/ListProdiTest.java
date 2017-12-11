@@ -29,7 +29,7 @@ public class ListProdiTest {
 
     @Test
     public void testLaunch(){
-       SearchView searchView = (SearchView) listProdi.findViewById(R.id.cariprodi);
+       SearchView searchView = (SearchView) listProdi.findViewById(R.id.searchProdi);
        assertNotNull(searchView);
     }
 

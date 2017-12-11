@@ -18,7 +18,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/feb_bendera" />
+            app:srcCompat="@drawable/fh_bendera" />
 
         <TextView
             android:layout_marginTop="20dp"
@@ -26,7 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="Fakultas Ekonomi dan Bisnis merupakan Fakultas ke - 3 yang ada di Universitas Airangga" />
+            android:textAlignment="gravity"
+            android:text="Fakultas Hukum Universitas Airlangga merupakan salah satu fakultas hukum tertua di Indonesia. Pada mulanya, pada tahun 1952 merupakan cabang dari Fakultas Hukum Universitas Gadjah Mada, Yogyakarta. Kemudian sejak tahun 1954, dengan berdirinya Universitas Airlangga yang diresmikan oleh Presiden RI Ir. Soekarno, maka ditetapkanlah Fakultas Kedokteran, Fakultas Kedokteran Gigi dan Fakultas Hukum sebagai tiga fakultas pertama dari Universitas Airlangga.  Beberapa Sarjana Hukum terkemuka di Indonesia, di antaranya Prof. Mr. A.G. Pringgodigdo (Sekretaris Negara RI dalam Kabinet Presiden Soekarno) menjadi pendiri Fakultas Hukum Universitas Airlangga. Dengan reputasi yang sangat baik dalam melaksanakan pendidikan tinggi hukum, maka sejak tahun 1970-an Fakultas Hukum Universitas Airlangga dipercaya oleh Departemen Pendidikan Nasional untuk menjadi pembina dalam rangka pengembangan fakultas hukum lain di wilayah Indonesia timur." />
 
 
 

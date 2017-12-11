@@ -26,7 +26,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="Fakultas Ekonomi dan Bisnis merupakan Fakultas ke - 3 yang ada di Universitas Airangga" />
+            android:textAlignment="gravity"
+            android:text="Bermula dari gagasan para mahasiswa Indonesia di Rotterdam Belanda antara lain Fadjar Notonagoro, Sumitro dan kawan-kawan yang ingin mendirikan perguruan tinggi ekonomi sekembalinya ke Indonesia. Pada saat itu belum ada satupun perguruan tinggi ekonomi di Indonesia, sehingga untuk belajar ilmu ekonomi harus ke luar negeri.
+Sekitar tahun 1952/1953 berdirilah suatu perguruan tinggi ekonomi di Surabaya dengan nama Perguruan Tinggi Ekonomi Krisnadwipayana yang didirikan oleh dr. Ong Eng Djie (beliau adalah Menteri Keuangan Republik Indonesia).
+Selang satu setengah tahun kemudian, karena beberapa hal perguruan tinggi tersebut harus membubarkan diri.
+Dengan cita-cita menuntut ilmu yang demikian besarnya, bekas mahasiswa PTE Krisnadwipayana menghadap gubernur Samadikoen memohon bantuan dilanjutkannya derap langkah Alma Mater mereka.
+Dengan latar belakang kondisi-kondisi di atas, atas anjuran Gubernur Samadikoen, dan dorongan para bekas mahasiswa Nederlandsche Economische Hogeschool Rotterdam (NEH Rotterdam), maka apda tanggal 1 Januari 1954 didirikan Yayasan Perguruan Tinggi Ekonomi Surabaya.
+Pendirian yayasan tersebut atas dasar akta notaris Mr.Drs. Liem Hie Hian tertanggal 22 Juli 1954. Perjuangan selanjutnya dipelopori oleh R. Samadikoen, Soewondo, dan Wilono (bekas gubernur Kalimantan yang kemudian menjadi Kepala Daerah Jawa Timur), Presiden Direktur bank Rakyat Indonesia dan Panglima Angkatan Laut.
+Berkat perjuangan yang sangat gigih, akhirnya keluar Surat Keputusan Menteri Perguruan Tinggi dan Ilmu Pengetahuan No. 31/1961 pada tanggal 8 Agustus 1961 yang menetapkan sejak tanggal 1 September 1961 PTES berubah menjadi Fakultas Ekonomi Universitas Airlangga ." />
 
 
 

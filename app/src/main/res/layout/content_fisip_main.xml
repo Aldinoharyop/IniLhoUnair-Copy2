@@ -26,7 +26,7 @@
             android:id="@+id/fisipsejarah"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/feb_bendera"
+            app:srcCompat="@drawable/fisip_bendera"
             android:scaleType="centerInside"/>
 
         <ImageButton

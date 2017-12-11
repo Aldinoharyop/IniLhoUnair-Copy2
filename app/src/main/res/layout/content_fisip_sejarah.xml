@@ -18,7 +18,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/feb_bendera" />
+            app:srcCompat="@drawable/fisip_bendera" />
 
         <TextView
             android:layout_marginTop="20dp"
@@ -26,7 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="Fakultas Ekonomi dan Bisnis merupakan Fakultas ke - 3 yang ada di Universitas Airangga" />
+            android:textAlignment="gravity"
+            android:text="@string/sejarahFisip" />
 
 
 

@@ -202,7 +202,8 @@
             android:name=".Popup"
             android:theme="@style/AppTheme.buatpopup" />
         <activity android:name=".ListProdi" />
-        <activity android:name=".PopUpInfoProdi"></activity>
+        <activity android:name=".PopUpInfoProdi"
+            android:theme="@style/AppTheme.buatpopup"/>
     </application>
 
 </manifest>
