@@ -1,19 +1,23 @@
 package com.example.aldino.inilhounair;
 
 import android.content.Intent;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ImageListener;
+
+
 
 public class Home extends AppCompatActivity {
 
-    customAdapter adapter;
-    ViewPager viewPager;
+
+
+    CarouselView carouselView;
+    int[] sampleImages = {R.drawable.unair, R.drawable.ulaz, R.drawable.fkg, R.drawable.fkgambar, R.drawable.fhgambar};
 
 
     @Override
@@ -21,12 +25,12 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        adapter = new customAdapter(this);
-        viewPager.setAdapter(adapter);
 
-        Timer timer = new Timer();
-        timer.scheduleAtFixedRate(new MyTimerTask(),2000,4000);
+
+        carouselView = (CarouselView) findViewById(R.id.carouselView);
+        carouselView.setPageCount(sampleImages.length);
+
+        carouselView.setImageListener(imageListener);
 
         ImageButton imageButton = (ImageButton) findViewById(R.id.sejarah);
         imageButton.setOnClickListener(new View.OnClickListener() {
@@ -56,22 +60,11 @@ public class Home extends AppCompatActivity {
         });
     }
 
-    public class MyTimerTask extends TimerTask {
-
+    ImageListener imageListener = new ImageListener() {
         @Override
-        public void run() {
-            Home.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    if (viewPager.getCurrentItem() == 0){
-                        viewPager.setCurrentItem(1);
-                    } else if (viewPager.getCurrentItem() == 1){
-                        viewPager.setCurrentItem(2);
-                    } else {
-                        viewPager.setCurrentItem(0);
-                    }
-                }
-            });
+        public void setImageForPosition(int position, ImageView imageView) {
+            imageView.setImageResource(sampleImages[position]);
         }
-    }
+    };
+
 }
